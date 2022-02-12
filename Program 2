@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void)
+{
+  int a,b;
+  printf("Enter first numbers\n");
+  scanf("%d",&a);
+  printf("Enter second numbers\n");
+  scanf("%d",&b);
+  if(a>b)
+  {
+   printf("%d >%d",a,b);
+  }
+  else
+  {
+   printf("%d <%d",a,b);
+  }
+ return 0;
+}
