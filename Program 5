@@ -1,0 +1,16 @@
+#include<stdio.h>
+#define PI 3.14159
+int main()
+{
+    double rad, di,circum,area;
+    printf("Enter radius of the circle:\n");
+    scanf("%lf",& rad);
+    di = rad*2;
+    circum = 2*PI*rad;
+    area = PI*rad*rad;
+    printf("Radius of the circle:%lf\n",rad);
+    printf("Diameter of the circle:%lf\n",di);
+    printf("Circumference of the circle:%lf\n",circum);
+    printf("Area of the circle:%lf\n",area);
+    return 0;
+}
