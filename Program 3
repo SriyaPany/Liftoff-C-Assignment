@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void)
+{
+ int num , r;
+ printf("Enter A Number:\n");
+ scanf("%d",&num);
+ r = num % 2;
+ switch (r)
+ {
+   case 0:
+   printf("%d is even ",num);
+   break;
+   default:
+   printf("%d is odd ",num);
+ }
+ return 0;
+}
